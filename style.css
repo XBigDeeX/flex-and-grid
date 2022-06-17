@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display:flex;
+    width: 100vh;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+}
+
+/* Sedans */
+.sedans{
+    padding: 35px;
+    height: 50vh;
+    background-color: hsl(31, 77%, 52%)
+}
+.sedans img{
+    padding-top: 20px;
+}
+.sedans h3{
+    padding-top: 30px;
+    color: hsl(0, 0%, 95%);
+}
+.sedans p{
+    padding-top: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+.sedans button{
+    margin-top: 9vh;
+    width: 16vh;
+    background-color:hsl(0, 0%, 95%);
+    padding: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.sedans button:active{
+background-color: hsl(31, 77%, 52%);
+color: hsl(0, 0%, 95%);
+}
+
+/* SUV */
+
+.suvs{
+    padding: 35px;
+    height: 50vh;
+    background-color:  hsl(184, 100%, 22%)
+}
+.suvs img{
+    padding-top: 20px;
+}
+.suvs h3{
+    padding-top: 30px;
+    color: hsl(0, 0%, 95%);
+}
+.suvs p{
+    padding-top: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+.suvs button{
+    margin-top: 9vh;
+    width: 16vh;
+    background-color:hsl(0, 0%, 95%);
+    padding: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+.suvs button:active{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    }
+/* Luxury */
+.luxury{
+    padding: 35px;
+    height: 50vh;
+    background-color: hsl(179, 100%, 13%)
+}
+.luxury img{
+    padding-top: 20px;
+}
+.luxury h3{
+    padding-top: 30px;
+    color: hsl(0, 0%, 95%);
+}
+.luxury p{
+    padding-top: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+.luxury button{
+    margin-top: 9vh;
+    width: 16vh;
+    background-color:hsl(0, 0%, 95%);
+    padding: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    cursor: pointer;
+}
+.luxury button:active{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    }

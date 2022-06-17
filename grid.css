@@ -4,7 +4,6 @@
 }
 body{
     background-color: bisque;
-    display: flex;
     place-items: center;
     min-height: 100vh;
 }
@@ -14,7 +13,7 @@ main{
     width: 50vh;
     height: 50%;
     grid-template-areas: 'a a a b' 'a a a b' 'c c d d' 'c c e e';
-    margin: auto;
+    margin: 25vh auto;
     gap: 10px;
     /* align-items: center; */
     /* justify-content: center; */
@@ -45,4 +44,11 @@ main div {
 .box-5{
     background-color: rgb(51, 155, 234);
     grid-area: e;   
+}
+.homepage{
+    margin-left: 47em;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
